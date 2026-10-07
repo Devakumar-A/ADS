@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Reset and Corporate Foundation */
+@layer base {
+  :root {
+    --color-brand-primary: #0B3B82;
+    --color-brand-deep: #072A5E;
+    --color-brand-accent: #1769E0;
+    --color-surface-ground: #FFFFFF;
+    --color-surface-subtle: #F5F8FC;
+    --color-surface-border: #E4EAF2;
+  }
+
+  html {
+    color-scheme: light;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #101828;
+    font-family: 'Inter', -apple-system, system-ui, sans-serif;
+    overflow-x: hidden;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+  }
+
+  /* Architectural focus ring for keyboard accessibility */
+  :focus-visible {
+    outline: 2px solid #0B3B82;
+    outline-offset: 3px;
+  }
+}
+
+/* Custom Editorial Utilities for White & Blue Theme */
+@layer utilities {
+  /* Subtle light grid background for corporate architectural feel */
+  .bg-grid-subtle {
+    background-image: linear-gradient(to right, rgba(11, 59, 130, 0.04) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(11, 59, 130, 0.04) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  .bg-dots-subtle {
+    background-image: radial-gradient(rgba(11, 59, 130, 0.08) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  /* Text balance for headlines */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Hide scrollbars cleanly */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Respect user's motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
