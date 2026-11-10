@@ -1,0 +1,34 @@
+/* ==============================================================================
+   HUMANS.TXT — The humans behind AG ADS
+   http://humanstxt.org/
+   ============================================================================== */
+
+/* TEAM & CREATOR */
+Founder & Lead Developer: Devakumar A
+Company: Cognolynx
+Website: https://cognolynx.tech
+GitHub: https://github.com/Devakumar-A
+LinkedIn: https://www.linkedin.com/in/devakumar-a-129561305/
+ORCID: https://orcid.org/0009-0003-8934-6744
+Email: devak9391@gmail.com
+Location: Tamil Nadu / Puducherry, India
+Role: Full-Stack Architecture, Website Development, UI/UX Engineering, Performance Optimization & SEO
+
+/* CLIENT & BRAND */
+Client: AG ADS (Advanced Growth)
+Tagline: One Brand. Every Channel. Real Growth.
+Industry: Advertising & Marketing (Digital & Outdoor)
+Offices: Puducherry & Chennai, India
+Phone: +91 6369846324
+Instagram: @ag.ads.pondy
+
+/* SITE SPECIFICATIONS */
+Standards: HTML5, CSS3, ES2024, WebP Images, WAI-ARIA, Agentic Web Directives
+Framework: React 19, TypeScript, Vite
+Styling: Tailwind CSS
+Icons: Lucide React, Custom SVG
+Graphics / 3D: Three.js
+Hosting: Netlify (Continuous Deployment)
+Optimization: Eager LCP Image Preloading, WebP Payload Compression, Zero-Layout-Shift Design
+Last Updated: November 2026
+

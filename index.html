@@ -6,14 +6,29 @@
     <meta name="theme-color" content="#0B3B82" />
     <title>AG ADS — Advanced Growth | One Brand. Every Channel. Real Growth.</title>
     <meta name="description" content="AG ADS is a premier marketing and advertising agency in Puducherry and Chennai. One Brand. Every Channel. Real Growth. Connecting digital advertising with commanding outdoor media." />
-    <meta name="keywords" content="AG ADS, Advanced Growth, Digital Marketing Puducherry, Outdoor Advertising Chennai, Meta Ads, Google Ads, LED Van Advertising, Billboards, Branding, Social Media Marketing Pondicherry" />
-    <meta name="author" content="AG ADS" />
-    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="AG ADS, Advanced Growth, Digital Marketing Puducherry, Outdoor Advertising Chennai, Meta Ads, Google Ads, LED Van Advertising, Billboards, Branding, Social Media Marketing Pondicherry, Content Creation, Videography, Video Editing, Cognolynx" />
+    <meta name="author" content="AG ADS | Developed by Devakumar A (Cognolynx)" />
+    <meta name="creator" content="Devakumar A — Founder, Cognolynx (https://cognolynx.tech)" />
+    <meta name="publisher" content="Cognolynx" />
+    <meta name="copyright" content="AG ADS &amp; Cognolynx" />
+    <meta name="application-name" content="AG ADS" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link rel="canonical" href="https://agads.in/" />
+
+    <!-- Humanstxt, Sitemap & Agentic LLM Discovery Directives -->
+    <link rel="author" href="/humans.txt" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="Agentic LLM Knowledge Base" />
+
+    <!-- Priority LCP Image Preloading -->
+    <link rel="preload" as="image" href="/assets/hero/AG_Desktop.webp" media="(min-width: 768px)" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="/assets/hero/AG_Mobile.webp" media="(max-width: 767px)" type="image/webp" fetchpriority="high" />
 
     <!-- Geo Tags for Puducherry & Chennai -->
     <meta name="geo.region" content="IN-PY;IN-TN" />
     <meta name="geo.placename" content="Puducherry;Chennai" />
+    <meta name="geo.position" content="11.9416;79.8083" />
+    <meta name="ICBM" content="11.9416, 79.8083" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -21,66 +36,151 @@
     <meta property="og:site_name" content="AG ADS — Advanced Growth" />
     <meta property="og:title" content="AG ADS — Advanced Growth | One Brand. Every Channel. Real Growth." />
     <meta property="og:description" content="AG ADS brings digital marketing and outdoor advertising together to help businesses build visibility, connect with their audience, and achieve real growth." />
-    <meta property="og:image" content="/assets/brand/AG_logo.png" />
+    <meta property="og:image" content="/assets/brand/AG_logo.webp" />
     <meta property="og:locale" content="en_IN" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="AG ADS — Advanced Growth | One Brand. Every Channel. Real Growth." />
     <meta name="twitter:description" content="AG ADS brings digital marketing and outdoor advertising together to help businesses build visibility, connect with their audience, and achieve real growth." />
-    <meta name="twitter:image" content="/assets/brand/AG_logo.png" />
+    <meta name="twitter:image" content="/assets/brand/AG_logo.webp" />
 
-    <!-- Schema.org JSON-LD Structured Data -->
+    <!-- Schema.org Comprehensive JSON-LD Structured Data (Organization, Agency, Creator & Founder) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "AdvertisingAgency",
-      "name": "AG ADS",
-      "alternateName": "Advanced Growth",
-      "description": "AG ADS is a premier marketing and advertising agency in Puducherry and Chennai connecting digital marketing and outdoor media.",
-      "url": "https://agads.in",
-      "logo": "https://agads.in/assets/brand/AG_logo.png",
-      "telephone": "+916369846324",
-      "address": [
+      "@graph": [
         {
-          "@type": "PostalAddress",
-          "addressLocality": "Puducherry",
-          "addressRegion": "PY",
-          "addressCountry": "IN"
+          "@type": "WebSite",
+          "@id": "https://agads.in/#website",
+          "url": "https://agads.in/",
+          "name": "AG ADS — Advanced Growth",
+          "alternateName": "AG ADS",
+          "description": "Premier integrated digital marketing and outdoor advertising agency in Puducherry and Chennai.",
+          "inLanguage": "en-IN",
+          "publisher": {
+            "@id": "https://agads.in/#agency"
+          },
+          "creator": {
+            "@id": "https://cognolynx.tech/#person-devakumar"
+          }
         },
         {
-          "@type": "PostalAddress",
-          "addressLocality": "Chennai",
-          "addressRegion": "TN",
-          "addressCountry": "IN"
-        }
-      ],
-      "areaServed": ["Puducherry", "Chennai", "Tamil Nadu"],
-      "sameAs": [
-        "https://instagram.com/ag.ads.pondy"
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "AG ADS Marketing Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Digital Marketing",
-              "description": "Meta Ads, Google Ads, Social Media Management, Graphic Design, Video Production, Video Editing, Branding, Website Development."
-            }
+          "@type": "AdvertisingAgency",
+          "@id": "https://agads.in/#agency",
+          "name": "AG ADS",
+          "alternateName": "Advanced Growth",
+          "description": "AG ADS is a premier marketing and advertising agency in Puducherry and Chennai connecting performance digital advertising with commanding outdoor media.",
+          "url": "https://agads.in/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://agads.in/assets/brand/AG_logo.webp"
           },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Outdoor Marketing",
-              "description": "Radio Advertising, TV Advertising, Newspaper Advertising, Sun-Pack Advertising, LED Van Advertising, Mall Advertising."
+          "image": "https://agads.in/assets/hero/AG_Desktop.webp",
+          "telephone": "+916369846324",
+          "priceRange": "$$",
+          "address": [
+            {
+              "@type": "PostalAddress",
+              "addressLocality": "Puducherry",
+              "addressRegion": "PY",
+              "addressCountry": "IN"
+            },
+            {
+              "@type": "PostalAddress",
+              "addressLocality": "Chennai",
+              "addressRegion": "TN",
+              "addressCountry": "IN"
             }
+          ],
+          "areaServed": [
+            {
+              "@type": "State",
+              "name": "Puducherry"
+            },
+            {
+              "@type": "State",
+              "name": "Tamil Nadu"
+            },
+            {
+              "@type": "Country",
+              "name": "India"
+            }
+          ],
+          "sameAs": [
+            "https://instagram.com/ag.ads.pondy"
+          ],
+          "provider": {
+            "@id": "https://cognolynx.tech/#organization"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "AG ADS Integrated Marketing Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Digital Marketing",
+                  "description": "Meta Ads, Google Ads, Social Media Management, Graphic Design, Video Production, Video Editing, Branding, Website Development."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AG Production Studio",
+                  "description": "Content Creation, Product Shoots, Lifestyle Videography, Commercial Films, 4K Video Editing and Motion Design."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Outdoor Marketing",
+                  "description": "High-impact LED Van Advertising, Highway Billboards, Sun-Pack Pole Kiosks, Transit Auto/Bus Wraps, Newspaper and FM Radio Advertising."
+                }
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://cognolynx.tech/#organization",
+          "name": "Cognolynx",
+          "url": "https://cognolynx.tech",
+          "email": "devak9391@gmail.com",
+          "description": "Cognolynx is a modern software engineering and technology development agency founded by Devakumar A, building high-performance web applications, AI solutions, and digital infrastructure.",
+          "founder": {
+            "@id": "https://cognolynx.tech/#person-devakumar"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://cognolynx.tech/#person-devakumar",
+          "name": "Devakumar A",
+          "jobTitle": "Founder & Lead Software Engineer",
+          "worksFor": {
+            "@id": "https://cognolynx.tech/#organization"
+          },
+          "email": "mailto:devak9391@gmail.com",
+          "sameAs": [
+            "https://github.com/Devakumar-A",
+            "https://orcid.org/0009-0003-8934-6744",
+            "https://www.linkedin.com/in/devakumar-a-129561305/"
+          ],
+          "knowsAbout": [
+            "Software Engineering",
+            "Full-Stack Web Development",
+            "Artificial Intelligence",
+            "Frontend Architecture",
+            "Search Engine Optimization (SEO)",
+            "React",
+            "TypeScript",
+            "Performance Optimization"
+          ]
+        }
+      ]
     }
     </script>
     
@@ -89,7 +189,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Typography: Manrope (Display/Headings: 600, 700, 800) + Inter (Interface/Body: 400, 500, 600, 700) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="/assets/brand/favicons.png" />
+    <link rel="icon" type="image/webp" href="/assets/brand/favicons.webp" />
   </head>
   <body class="bg-white text-text-primary antialiased selection:bg-brand-primary selection:text-white min-h-screen overflow-x-hidden">
     <div id="root"></div>

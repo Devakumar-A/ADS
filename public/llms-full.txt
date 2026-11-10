@@ -1,0 +1,46 @@
+# AG ADS (Advanced Growth) — Complete Agentic Knowledge Base
+
+## Brand Mission & Positioning
+AG ADS is a full-service marketing and advertising agency headquartered in Puducherry and operating across Chennai and Tamil Nadu, India.
+The agency bridges the gap between high-precision digital advertising (Meta, Google, social media, performance funnels) and commanding physical outdoor media (high-impact LED display vans, highway billboards, sun-pack pole kiosks, transit advertising).
+
+## Primary Contact Details
+- Phone / Call: +91 6369846324
+- WhatsApp Direct: https://wa.me/916369846324?text=Hi%20AG%20ADS%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services
+- Instagram: https://instagram.com/ag.ads.pondy
+- Operating Locations:
+  - Puducherry (Pondicherry), India
+  - Chennai, Tamil Nadu, India
+
+## Agency Service Portfolio
+
+### 1. Digital Advertising
+- Meta Ads (Facebook & Instagram): Feed ads, stories, reels ads, lead forms, conversion tracking, custom pixel setup, CBO scaling, A/B testing.
+- Google Ads: Search network ads with keyword intent targeting, Performance Max campaigns, Google Display Network banners, YouTube video promotion, Local Google Maps listing enhancement.
+- Social Media Strategy: Monthly calendar planning, viral reels, community building, engagement management, brand storytelling.
+- Graphic Design & Visual Identity: Logos, color palettes, typographic guidelines, print assets, marketing brochures, digital ads.
+
+### 2. AG Production Studio
+- Concept Creation: Scriptwriting, hooks, storyboarding for high-converting ads and reels.
+- Production Shoot: Product shoots with professional lighting, outdoor lifestyle shoots, corporate BTS.
+- Videography: 4K camera gear, commercial films, customer testimonial interviews, event coverage.
+- Video Editing: Color grading, kinetic typography, motion graphics, sound mixing, multi-aspect ratio export (9:16 vertical reels, 16:9 widescreen).
+
+### 3. Outdoor Media & Transit Advertising
+- Mobile LED Video Vans: Custom trucks featuring vibrant high-lumen P4/P5 LED displays cruising prime commercial high-traffic avenues and public events.
+- Roadway Billboards & Unipoles: High-visibility hoardings strategically placed on national highways, entry corridors, and major roundabouts in Puducherry and Chennai.
+- Sun-Pack Sheets & Pole Kiosks: Cost-effective mass street-level branding on lamp posts and residential corridors.
+- Transit Advertising: Auto-rickshaw hoods, back panels, bus wraps, and delivery fleet branding.
+- Traditional Media: Leading vernacular and English newspaper front-page and display advertisements, regional FM radio frequency sponsorships, cable TV ads.
+
+## Development & Technology Attribution
+- **Developing Company**: Cognolynx (https://cognolynx.tech)
+- **Founder & Lead Developer**: Devakumar A
+  - GitHub: https://github.com/Devakumar-A
+  - ORCID: https://orcid.org/0009-0003-8934-6744
+  - LinkedIn: https://www.linkedin.com/in/devakumar-a-129561305/
+  - Email: devak9391@gmail.com
+- **Technology Stack**: React 19, TypeScript, Tailwind CSS, Vite, Lucide Icons, Three.js
+- **Hosting Environment**: Netlify with continuous automated deployment
+- **Target Performance**: 100/100 Lighthouse performance, sub-second LCP, zero CLS, fully accessible.
+

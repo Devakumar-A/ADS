@@ -1,0 +1,4 @@
+# Netlify Single-Page Application (SPA) redirect rule
+# Ensures client-side React Router handles all valid routes without 404 errors
+/*    /index.html   200
+

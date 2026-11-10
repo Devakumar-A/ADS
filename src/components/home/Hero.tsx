@@ -29,9 +29,10 @@ export const Hero: React.FC = () => {
         "
       >
         <img
-          src="/assets/hero/AG_Desktop.png"
-          alt=""
+          src="/assets/hero/AG_Desktop.webp"
+          alt="AG ADS Marketing & Advertising"
           fetchPriority="high"
+          loading="eager"
           decoding="async"
           className="
             absolute inset-0
@@ -77,9 +78,10 @@ export const Hero: React.FC = () => {
         "
       >
         <img
-          src="/assets/hero/AG_Mobile.png"
-          alt=""
+          src="/assets/hero/AG_Mobile.webp"
+          alt="AG ADS Marketing & Advertising"
           fetchPriority="high"
+          loading="eager"
           decoding="async"
           className="
             absolute inset-0

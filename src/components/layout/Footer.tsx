@@ -380,7 +380,7 @@ export const Footer: React.FC = () => {
                   "
                 >
                   <img
-                    src="/assets/brand/AG_logo.png"
+                    src="/assets/brand/AG_logo.webp"
                     alt="AG ADS Logo"
                     className="h-full w-full object-contain"
                   />
@@ -951,11 +951,11 @@ export const Footer: React.FC = () => {
                 text-white/40
               "
             >
-              Website by{' '}
               <a
-                href="https://cognolynx.com"
+                href="https://cognolynx.tech"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Developed by Devakumar A — Cognolynx"
                 className="
                   font-semibold
                   text-white/75

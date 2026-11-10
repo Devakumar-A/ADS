@@ -82,9 +82,7 @@ export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
-  const [activeService, setActiveService] = useState<'digital' | 'outdoor'>(
-    'digital'
-  );
+  const [activeService, setActiveService] = useState<'digital' | 'outdoor'>('digital');
   const [mobileServiceOpen, setMobileServiceOpen] = useState<
     'digital' | 'outdoor' | null
   >(null);
@@ -298,7 +296,7 @@ export const Header: React.FC = () => {
                     "
                   >
                     <img
-                      src="/assets/brand/AG_logo.png"
+                      src="/assets/brand/AG_logo.webp"
                       alt="AG ADS Logo"
                       className="
                         h-full
@@ -764,6 +762,55 @@ export const Header: React.FC = () => {
                                   </button>
                                 );
                               })}
+
+                              {/* PRODUCTION SERVICES POPUP TRIGGER */}
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  closeEverything();
+                                  window.dispatchEvent(
+                                    new CustomEvent('ag-open-services-popup')
+                                  );
+                                }}
+                                className="
+                                  group
+                                  relative
+                                  mt-2
+                                  w-full
+                                  overflow-hidden
+                                  rounded-2xl
+                                  border
+                                  border-dashed
+                                  border-[#BFD4EE]
+                                  bg-[#F0F6FF]/70
+                                  p-4
+                                  text-left
+                                  transition-all
+                                  duration-300
+                                  hover:border-[#1769E0]
+                                  hover:bg-white
+                                  hover:shadow-[0_10px_28px_rgba(11,59,130,0.12)]
+                                "
+                              >
+                                <div className="flex items-center justify-between">
+                                  <span className="text-[10px] font-black tracking-[0.15em] text-[#1769E0]">
+                                    03
+                                  </span>
+
+                                  <span className="rounded-full bg-[#EAF2FD] px-2 py-1 text-[8px] font-bold uppercase tracking-[0.1em] text-[#0B3B82]">
+                                    STUDIO
+                                  </span>
+                                </div>
+
+                                <div className="mt-4 text-[12px] font-black uppercase tracking-[0.04em] text-[#071A36] transition-colors group-hover:text-[#0B3B82]">
+                                  PRODUCTION SERVICES
+                                </div>
+
+                                <div className="mt-2 flex items-center gap-1.5 text-[9px] font-semibold text-[#1769E0]">
+                                  Launch Studio
+                                  <ArrowRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-0.5" />
+                                </div>
+                              </button>
                             </div>
 
                             {/* RIGHT SERVICE CONTENT */}
@@ -934,7 +981,10 @@ export const Header: React.FC = () => {
                                   hover:shadow-[0_12px_28px_rgba(11,59,130,0.24)]
                                 "
                               >
-                                Explore {activeService === 'digital' ? 'Digital' : 'Outdoor'}
+                                Explore{' '}
+                                {activeService === 'digital'
+                                  ? 'Digital'
+                                  : 'Outdoor'}
                                 <ArrowRight
                                   className="
                                     h-3.5
@@ -1644,6 +1694,50 @@ export const Header: React.FC = () => {
                           </div>
                         );
                       })}
+
+                      {/* PRODUCTION SERVICES MOBILE TRIGGER */}
+                      <button
+                        type="button"
+                        onClick={() => {
+                          closeEverything();
+                          window.dispatchEvent(
+                            new CustomEvent('ag-open-services-popup')
+                          );
+                        }}
+                        className="
+                          flex
+                          min-h-[52px]
+                          w-full
+                          items-center
+                          justify-between
+                          rounded-2xl
+                          border
+                          border-dashed
+                          border-[#BFD4EE]
+                          bg-[#F0F6FF]
+                          px-4
+                          text-left
+                          transition-all
+                          duration-200
+                          hover:border-[#1769E0]
+                          hover:bg-white
+                        "
+                      >
+                        <div className="flex items-center gap-3">
+                          <span className="text-[9px] font-black tracking-[0.15em] text-[#1769E0]">
+                            03
+                          </span>
+
+                          <span className="text-[11px] font-black uppercase tracking-[0.04em] text-[#071A36]">
+                            Production Services
+                          </span>
+                        </div>
+
+                        <div className="flex items-center gap-1.5 text-[9px] font-bold uppercase tracking-[0.1em] text-[#1769E0]">
+                          <span>Studio</span>
+                          <ArrowRight className="h-3 w-3" />
+                        </div>
+                      </button>
                     </div>
                   </div>
                 </div>

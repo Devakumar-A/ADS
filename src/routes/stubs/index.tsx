@@ -8,6 +8,7 @@ import { Button } from '../../components/ui/Button';
 import { ArrowRight, ArrowUpRight, CheckCircle2, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { InstagramIcon, WhatsAppIcon } from '../../components/ui/Icons';
+import { SEO } from '../../components/common/SEO';
 
 /* =========================================================================
    1. SERVICES OVERVIEW PAGE (/services)
@@ -15,6 +16,11 @@ import { InstagramIcon, WhatsAppIcon } from '../../components/ui/Icons';
 export const ServicesPage: React.FC = () => {
   return (
     <div className="w-full bg-white text-text-primary">
+      <SEO
+        title="Marketing Services — Digital & Outdoor"
+        description="Comprehensive marketing services: Meta Ads, Google Ads, Branding, Content Shoots, Videography, LED Van Advertising, and Highway Billboards."
+        canonicalPath="/services"
+      />
       {/* Hero */}
       <Section spacing="hero" surface="ground" border="bottom">
         <Container size="editorial">
@@ -202,75 +208,107 @@ export const DigitalMarketingPage: React.FC = () => {
 
   return (
     <div className="w-full bg-white text-text-primary">
-      <Section spacing="hero" surface="ground" border="bottom">
-        <div className="relative overflow-hidden">
-          {/* Hero background image */}
+      <SEO
+        title="Digital Marketing Services — Meta Ads, Google Ads & Branding"
+        description="Scalable digital marketing in Puducherry & Chennai: Facebook & Instagram Ads, Google Search, Social Media Management, Video Editing, Branding, and Web Development."
+        canonicalPath="/services/digital-marketing"
+      />
+      <Section spacing="hero" surface="ground" border="bottom" className="relative isolate overflow-hidden">
+        {/* Desktop / Tablet Background Image */}
+        <div aria-hidden="true" className="absolute inset-0 z-0 hidden md:block overflow-hidden">
           <img
-            src="/assets/hero/desktop-view.png"
+            src="/assets/hero/AG_Desktop.webp"
             alt=""
-            aria-hidden="true"
+            decoding="async"
             className="
-              pointer-events-none
               absolute
               inset-0
               h-full
               w-full
               object-cover
               object-center
-              opacity-[0.22]
-              blur-[0.5px]
+              select-none
             "
           />
-          {/* Gradient scrim — keeps text fully readable */}
+          {/* Gradient scrim — keeps text fully readable on left, reveals graphic on right */}
           <div
             className="
-              pointer-events-none
               absolute
               inset-0
               bg-gradient-to-r
               from-white/95
-              via-white/80
+              via-white/70
               to-white/30
             "
           />
-          {/* Content */}
-          <Container size="editorial">
-            <div className="relative z-10 max-w-4xl">
-              <div className="flex items-center gap-2 mb-4">
-                <Link to="/services" className="text-xs font-sans font-semibold text-brand-primary hover:underline">
-                  Services
-                </Link>
-                <span className="text-text-muted text-xs">&gt;</span>
-                <Badge variant="blue">01 &mdash; DIGITAL MARKETING</Badge>
-              </div>
-
-              <div className="space-y-1 mb-6">
-                <Heading level="display-2xl" uppercase className="text-brand-deep leading-none">
-                  DIGITAL MARKETING
-                </Heading>
-                <Heading level="display-2xl" uppercase className="text-brand-deep leading-none">
-                  BUILT AROUND
-                </Heading>
-                <Heading level="display-2xl" uppercase className="text-brand-primary leading-none">
-                  YOUR GROWTH.
-                </Heading>
-              </div>
-
-              <Text variant="body-lg" tone="secondary" className="max-w-2xl mb-8 text-balance">
-                Complete digital marketing services designed to help businesses build their online presence, reach the right audience, and generate meaningful enquiries.
-              </Text>
-
-              <div className="flex flex-wrap gap-4">
-                <Button to="/contact" variant="primary" size="lg" icon={true}>
-                  Let's Grow
-                </Button>
-                <Button to="/services/outdoor-marketing" variant="secondary" size="lg">
-                  View Outdoor Marketing &rarr;
-                </Button>
-              </div>
-            </div>
-          </Container>
         </div>
+
+        {/* Mobile Background Image */}
+        <div aria-hidden="true" className="absolute inset-0 z-0 md:hidden overflow-hidden">
+          <img
+            src="/assets/hero/AG_Mobile.webp"
+            alt=""
+            decoding="async"
+            className="
+              absolute
+              inset-0
+              h-full
+              w-full
+              object-cover
+              object-center
+              select-none
+            "
+          />
+          {/* Mobile Gradient scrim */}
+          <div
+            className="
+              absolute
+              inset-0
+              bg-gradient-to-b
+              from-white/95
+              via-white/80
+              to-white/40
+            "
+          />
+        </div>
+
+        {/* Content */}
+        <Container size="editorial" className="relative z-10">
+          <div className="max-w-4xl">
+            <div className="flex items-center gap-2 mb-4">
+              <Link to="/services" className="text-xs font-sans font-semibold text-brand-primary hover:underline">
+                Services
+              </Link>
+              <span className="text-text-muted text-xs">&gt;</span>
+              <Badge variant="blue">01 &mdash; DIGITAL MARKETING</Badge>
+            </div>
+
+            <div className="space-y-1 mb-6">
+              <Heading level="display-2xl" uppercase className="text-brand-deep leading-none">
+                DIGITAL MARKETING
+              </Heading>
+              <Heading level="display-2xl" uppercase className="text-brand-deep leading-none">
+                BUILT AROUND
+              </Heading>
+              <Heading level="display-2xl" uppercase className="text-brand-primary leading-none">
+                YOUR GROWTH.
+              </Heading>
+            </div>
+
+            <Text variant="body-lg" tone="secondary" className="max-w-2xl mb-8 text-balance">
+              Complete digital marketing services designed to help businesses build their online presence, reach the right audience, and generate meaningful enquiries.
+            </Text>
+
+            <div className="flex flex-wrap gap-4">
+              <Button to="/contact" variant="primary" size="lg" icon={true}>
+                Let's Grow
+              </Button>
+              <Button to="/services/outdoor-marketing" variant="secondary" size="lg">
+                View Outdoor Marketing &rarr;
+              </Button>
+            </div>
+          </div>
+        </Container>
       </Section>
 
       {/* Capabilities List */}
@@ -350,6 +388,11 @@ export const OutdoorMarketingPage: React.FC = () => {
 
   return (
     <div className="w-full bg-white text-text-primary">
+      <SEO
+        title="Outdoor Marketing & Advertising — LED Vans & Billboards"
+        description="Commanding outdoor advertising across Puducherry & Chennai: High-brightness LED Video Vans, Prime Highway Billboards, Sun-Pack Sheets, and Regional Transit Media."
+        canonicalPath="/services/outdoor-marketing"
+      />
       <Section spacing="hero" surface="ground" border="bottom">
         <Container size="editorial">
           <div className="max-w-4xl">
@@ -430,6 +473,11 @@ export const OutdoorMarketingPage: React.FC = () => {
 export const AboutPage: React.FC = () => {
   return (
     <div className="w-full bg-white text-text-primary">
+      <SEO
+        title="About Us — Agency Mission & Vision"
+        description="Learn about AG ADS, our dual-channel marketing philosophy, leadership team, and regional advertising expertise in Puducherry and Chennai."
+        canonicalPath="/about"
+      />
       <Section spacing="hero" surface="ground" border="bottom">
         <Container size="editorial">
           <div className="max-w-3xl">
@@ -524,6 +572,11 @@ export const ContactPage: React.FC = () => {
 
   return (
     <div className="w-full bg-white text-text-primary">
+      <SEO
+        title="Contact Us — Puducherry & Chennai Marketing Office"
+        description="Get in touch with AG ADS. Speak with our marketing strategists in Puducherry or Chennai for digital marketing, outdoor campaigns, and production shoots."
+        canonicalPath="/contact"
+      />
       {/* Header */}
       <Section spacing="hero" surface="ground" border="bottom" className="relative overflow-hidden">
         <div

@@ -1,0 +1,60 @@
+# ==============================================================================
+# AG ADS (Advanced Growth) Robots & Agentic Crawler Directives
+# Developed by Devakumar A — Cognolynx (https://cognolynx.tech)
+# ==============================================================================
+
+# Default Crawlers (Google, Bing, Yahoo, DuckDuckGo, etc.)
+User-agent: *
+Allow: /
+Allow: /assets/
+Disallow: /api/
+Disallow: /admin/
+
+# AI Search & Agentic Crawlers (Enabled for conversational discovery & LLM search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Social Media Preview Bots
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Canonical Sitemap
+Sitemap: https://agads.in/sitemap.xml
+
+# Human & Agentic Manifests
+# Humans: https://agads.in/humans.txt
+# Agentic LLM Context: https://agads.in/llms.txt
+

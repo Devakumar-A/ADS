@@ -8,6 +8,7 @@ import { WorkGalleryGrid } from './WorkGalleryGrid';
 import { MediaViewer } from './MediaViewer';
 import { Layers } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { SEO } from '../common/SEO';
 
 export const WorkGallery: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<WorkCategory>('ALL');
@@ -34,6 +35,11 @@ export const WorkGallery: React.FC = () => {
 
   return (
     <div className="w-full bg-white text-text-primary">
+      <SEO
+        title="Our Work & Client Portfolio"
+        description="Explore campaign showcases, commercial videos, brand identities, and outdoor marketing campaigns executed by AG ADS across Puducherry and Chennai."
+        canonicalPath="/work"
+      />
       {/* ========================================================
           1. COMPACT EDITORIAL PAGE INTRO (WHITE FIRST)
           ======================================================== */}

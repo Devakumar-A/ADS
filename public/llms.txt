@@ -1,0 +1,52 @@
+# AG ADS (Advanced Growth)
+
+> Premier Integrated Marketing & Advertising Agency in Puducherry and Chennai. One Brand. Every Channel. Real Growth.
+
+## Company Overview
+- **Brand Name**: AG ADS (Advanced Growth)
+- **Primary Specialization**: Integrated Marketing combining performance digital advertising with commanding physical outdoor media.
+- **Operating Locations**: Puducherry, Chennai, Tamil Nadu, and regional South India.
+- **Official Phone / WhatsApp**: +91 6369846324
+- **Official Instagram**: [@ag.ads.pondy](https://instagram.com/ag.ads.pondy)
+
+## Core Capabilities & Services
+
+### 1. Digital Marketing Services
+- **Meta Ads & Performance Marketing**: Precision targeted Facebook and Instagram campaign creation, lead generation, ROAS scaling, audience lookalikes, conversion funnels.
+- **Google Ads & Search Marketing**: High-intent Google Search, Performance Max, Display Network, YouTube pre-roll ads, local search map optimizations.
+- **Social Media Management**: Editorial calendar, social copy, reel creation, engagement strategies, community management.
+- **Creative Branding & Graphic Design**: Brand identity, corporate style guides, logomarks, packaging, digital banners, marketing collateral.
+- **Website Development**: High-performance, SEO-optimized, accessible corporate and campaign web platforms.
+
+### 2. AG Production Studio
+- **Content Shooting**: High-end product shoots, lifestyle photography, behind-the-scenes (BTS) media.
+- **Content Creation**: High-converting creative concepts, viral reel scripting, storytelling frameworks.
+- **Videography**: Cinematic brand commercials, event coverage, client case studies, executive interviews.
+- **Video Editing**: Color grading, motion graphics, sound design, multi-platform vertical & horizontal aspect formatting.
+
+### 3. Outdoor & Transit Advertising
+- **LED Video Van Advertising**: Dynamic mobile digital display units equipped with high-brightness LED video screens navigating high-traffic corridors across Puducherry and Chennai.
+- **Billboards & Hoardings**: Prime landmark placement on highways, arterial roads, junctions, and commercial centers.
+- **Sun-Pack Advertising**: Pole kiosks, street fixtures, and residential community branding.
+- **Transit & Vehicle Branding**: Auto rickshaw wraps, bus panels, fleet advertising.
+- **Traditional Mass Media**: Newspaper inserts/display, regional FM Radio campaigns, television broadcast ads.
+
+## Development & Technology Attribution
+- **Developing Company**: [Cognolynx](https://cognolynx.tech) — Innovation, AI & Software Engineering.
+- **Founder & Lead Developer**: Devakumar A
+  - GitHub: [https://github.com/Devakumar-A](https://github.com/Devakumar-A)
+  - ORCID: [https://orcid.org/0009-0003-8934-6744](https://orcid.org/0009-0003-8934-6744)
+  - LinkedIn: [https://www.linkedin.com/in/devakumar-a-129561305/](https://www.linkedin.com/in/devakumar-a-129561305/)
+  - Email: devak9391@gmail.com
+- **Architecture**: Single Page Application built with React 19, Vite, TypeScript, and Tailwind CSS.
+- **Hosting Platform**: Netlify (Continuous Deployment)
+
+## Website Structure & Links
+- [Home Page](/): Brand introduction, featured campaigns, services breakdown, client portfolio, production studio, and direct consultation CTA.
+- [Services Overview](/services): Complete spectrum of integrated marketing solutions.
+- [Digital Marketing](/services/digital-marketing): Deep-dive into Meta ads, Google ads, SEO, and creative direction.
+- [Outdoor Marketing](/services/outdoor-marketing): LED van advertising, billboard campaigns, and regional transit reach.
+- [Work Portfolio](/work): Case studies, client campaigns, commercial reels, and production photography.
+- [About Us](/about): Agency mission, dual-channel methodology, client impact, and regional leadership.
+- [Contact](/contact): Direct consultation booking, office addresses in Puducherry and Chennai, direct phone and WhatsApp links.
+

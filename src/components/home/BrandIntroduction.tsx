@@ -38,17 +38,18 @@ export const BrandIntroduction: React.FC = () => {
     >
       {/* ============================================================
           SECTION BACKGROUND
-          Desktop -> Brand_Background.png
-          Mobile  -> Brand_Background_M.png
+          Desktop -> Brand_Background.webp
+          Mobile  -> Brand_Background_M.webp
       ============================================================ */}
       <picture className="pointer-events-none absolute inset-0 h-full w-full">
         <source
           media="(max-width: 767px)"
-          srcSet="/assets/section/Brand_Background_M.png"
+          srcSet="/assets/section/Brand_Background_M.webp"
+          type="image/webp"
         />
 
         <img
-          src="/assets/section/Brand_Background.png"
+          src="/assets/section/Brand_Background.webp"
           alt=""
           aria-hidden="true"
           className="h-full w-full object-cover object-top"
@@ -214,27 +215,34 @@ export const BrandIntroduction: React.FC = () => {
               {/* ======================================================
                   FULL CARD IMAGE
                   The image covers the complete card.
-                  Because both are square, there is no unwanted crop.
+                  Desktop uses AG_Desktop.webp, Mobile uses AG_Mobile.webp.
               ======================================================= */}
-              <img
-                src="/assets/section/AG_Desktop.png"
-                alt=""
-                aria-hidden="true"
-                className="
-                  absolute
-                  inset-0
-                  h-full
-                  w-full
-                  object-cover
-                  object-center
-                  transition-transform
-                  duration-700
-                  ease-out
-                  group-hover:scale-[1.015]
-                "
-                loading="lazy"
-                decoding="async"
-              />
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcSet="/assets/hero/AG_Mobile.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="/assets/hero/AG_Desktop.webp"
+                  alt=""
+                  aria-hidden="true"
+                  className="
+                    absolute
+                    inset-0
+                    h-full
+                    w-full
+                    object-cover
+                    object-center
+                    transition-transform
+                    duration-700
+                    ease-out
+                    group-hover:scale-[1.015]
+                  "
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
 
               {/* ======================================================
                   LEFT WHITE FADE
@@ -525,7 +533,7 @@ export const BrandIntroduction: React.FC = () => {
             >
               {/* FULL OUTDOOR IMAGE */}
               <img
-                src="/assets/section/Outdoor.png"
+                src="/assets/section/Outdoor.webp"
                 alt=""
                 aria-hidden="true"
                 className="
